@@ -30,6 +30,8 @@ Application creates folders that look like these:
 
 Okay, now let's see the steps to actually run the project.
 
+You should have [Python](https://www.python.org/) installed on your machine.
+
 > Clone the project on your local machine:
 
 ```git
