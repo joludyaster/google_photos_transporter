@@ -15,6 +15,10 @@
 
 Well, my parents asked me to move all of their google photos to an external SSD drive. I saw how many photos they had and didn't want to do it manually so I decided to create an application that will do it for me.
 
+## Precautions
+
+This application loops through files that already installed on your machine, keep that in mind. If you would like me to make application that will get files from the website, let me know.
+
 ## How to run?
 
 Firstly, I wanna warn you that code creates `photos` or `videos` or `files` folders depending on the file extension, if you want to change it, go ahead, application is all yours.
