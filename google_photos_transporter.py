@@ -84,7 +84,7 @@ class FileTransporter:
 
 def main():
     folder_to_move = f"{os.getcwd().replace('\\', '/')}"  # Get current directory's name
-    who_to_move = "davyd"
+    who_to_move = "user"
 
     input_path = str(input("Enter the path of your Google Photos: ")).replace("\\", "/")
 
@@ -100,7 +100,7 @@ def main():
                 )
                 thread.file_selector()
 
-            print(f"[INFO] Program finished transporting all of the files.")
+            return f"[INFO] Program finished transporting all of the files."
 
         return f"[ERROR] The path you provided doesn't exist."
     except Exception as e:
@@ -108,4 +108,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    print(main())
