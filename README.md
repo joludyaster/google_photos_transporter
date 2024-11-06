@@ -28,7 +28,7 @@ Application creates folders that look like these:
 ...
 ├── videos
     ├── user (you could name it however you want, it sets to `user` folder by default)
-        ├── photos_from_2024_11_05_by_user
+        ├── videos_from_2024_11_05_by_user
             ├── photo.jpg
 ```
 
