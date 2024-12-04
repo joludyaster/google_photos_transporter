@@ -1,0 +1,5 @@
+.venv
+.idea
+photos/
+videos/
+exported_files/
